@@ -66,6 +66,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 15px;
+  justify-content: center;
 }
 
 .media-buttons .link {
@@ -85,6 +86,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 25px;
+  justify-content: center;
 }
 
 .buttons .button {
@@ -103,4 +105,30 @@ body {
 
 .buttons .button:hover{
   background-color: #003300;
+}
+
+.name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#github-link {
+background-color: #035e03;
+}
+#github-link:hover {
+background-color: #058b05;
+}
+
+#html-link {
+  background-color: #f36f36;
+} 
+#html-link:hover {
+  background-color: #f34c05;
+} 
+
+#css-link {
+  background-color: #2196f3;
+}
+#css-link:hover {
+  background-color: #42a2f0;
 }
